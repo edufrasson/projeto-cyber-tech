@@ -1,0 +1,135 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box; 
+}
+
+html{
+    font-size: 62.5%;
+}
+
+nav{
+    background-color: white;
+    width: 100%;
+    height: 110px;    
+    font-size: 15px;
+    padding: 15px;
+    justify-content: space-between;    
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid gray;  
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    padding-right: 18px;
+    font-size: 1.7rem;
+}
+
+main{
+    width: 100%;
+    display: flex;  
+}
+
+.title-container{
+    padding: 10px;
+    
+}
+
+.title-container h1{
+    font-size: 3.5rem;
+}
+
+.title-container p{
+    font-size: 2rem;
+}
+
+.icon{
+    font-size: 7rem;
+}
+
+.rounded-circle{
+    background-color: rgb(20, 40, 223);
+    width: 10rem;
+    height: 10rem;
+    color: white;
+}
+
+.service-description{
+    font-size: 2rem;
+}
+
+.description-container{
+    padding: 15px;
+    padding-top: 25px;
+}
+
+.about-content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-content{
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-left: 10px;
+    column-gap: 100px;
+}
+
+.contact-content p{
+    padding-left: 2px;
+}
+
+.contact-content i{
+    font-size: 4rem;
+}
+
+.social-container{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.voltar{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;    
+}
+
+@media (max-width: 1200px){
+
+    .rounded-circle{
+        height: 85px;
+    }
+
+    .icon{
+        font-size: 6rem;
+    }
+}
+
+@media (max-width: 992px){
+    
+    html{
+        font-size: 50%;
+    }
+    
+    .rounded-circle{
+        height: 70px;
+    }
+
+    .icon{
+        font-size: 5rem;
+    }
+    
+    .contact-content{
+        font-size: 2.5rem;
+    }
+}
